@@ -276,7 +276,7 @@ loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json
     
         const intersectsContact = raycaster.intersectObject(selectionBoxContact);
         if (intersectsContact.length > 0) {
-            window.location.href = 'projects.html'; // Load projects HTML
+            window.location.href = '/projects.html'; // Load projects HTML
         }
     });
 });
